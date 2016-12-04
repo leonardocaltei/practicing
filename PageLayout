@@ -1,0 +1,107 @@
+<!--Another code to pratice, this time to test page buttons, templates, sectors, etcs.-->
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+<head>
+  <title>
+    Personal Page
+  </title>
+</head>
+
+<style>
+  .background {
+      background-color: #ffffff;
+      bakcground-size: cover;
+      bottom: 0;
+      Left: 0;
+      right: 0;
+      top: 0;
+      overflow: auto;
+      position: cover;
+      
+    }
+  .upperbox {
+      background-color: #313332;
+      position: cover;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+      border-bottom-color: #838483;
+    }
+  .midbox {
+      background-color: #b2b2b2;
+      position: cover;
+      padding: 20px;
+    }
+  .titulo {
+      text-align: left;
+      color: white;
+      font-family: 'Abril Fatface', cursive;
+      margin: 0px;
+    }
+  .lowerbox {
+    background-color: #b2b2b2;
+    position: cover;
+    box-align: bottom;
+  }
+</style>
+
+<body class="background container-fluid">
+  <div class="row">
+    <div class="upperbox">
+      <div class="row" style="padding: 5px;">
+        <div class="col-xs-6">
+          <h1 class="titulo">Leonardo</h1>
+        </div>
+        <div class="col-xs-2">
+          <button type="button" class="btn btn-block btn-primary dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Botão1</a></li>
+            <li><a href="#">Botão2</a></li>
+            <li><a href="#">Botão3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Botão4</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-2">
+          <button type="button" class="btn btn-block btn-primary dropdown-toggle" data-toggle="dropdown">Works<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Botão1</a></li>
+            <li><a href="#">Botão2</a></li>
+            <li><a href="#">Botão3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Botão4</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-2">
+          <button  type="button" class="btn btn-block btn-primary dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Botão1</a></li>
+            <li><a href="#">Botão2</a></li>
+            <li><a href="#">Botão3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Botão4</a></li>
+          </ul>
+        </div>
+        <hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="midbox">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed scelerisque elit. In sit amet vehicula risus. Cras vitae risus vehicula, sollicitudin lectus imperdiet, consectetur eros. Pellentesque auctor, metus ac commodo sodales, ex dolor pulvinar mauris, in gravida mi metus eu enim. Morbi cursus vehicula velit in bibendum. Donec rhoncus tincidunt posuere. Vestibulum vel rhoncus metus, semper sollicitudin diam. Mauris congue elit accumsan felis semper, quis lacinia nulla vehicula. Nam vulputate erat quis venenatis consectetur. Vestibulum gravida turpis et condimentum gravida. Vivamus sed diam nisl. Vivamus eget lectus ultricies, eleifend nibh nec, maximus purus. Sed in blandit nulla. Aliquam quis efficitur massa.
+        </p>
+      </div>
+    </div>
+    <hr/>
+    <div>
+      <h1>portifolio</h1>
+    </div>
+    <hr/>
+    <div class="midbox">
+      <h1>ending</h1>
+    </div>
+    <div class="upperbox">
+      <h1>Powered By Leonardo Calderaro Teixeira</h1>
+    </div>
+  </div>
+</body>
